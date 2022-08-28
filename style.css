@@ -1,0 +1,68 @@
+#feesection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+   
+}
+
+#boys{
+    display: flex;
+    flex-direction: column;
+   
+   
+    background-color: rgba(38, 38, 247, 0.61);
+border-radius: 4px;
+width: 50%;
+height: auto;
+margin: 6px;
+
+}
+#girls{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    border-radius: 4px;
+    width: 50%;
+    height: auto;
+    margin: 6px;
+    
+    
+
+}
+#hostela:hover{
+    color: rgb(199, 21, 104);
+   
+}
+#hostela{
+    text-decoration:none;
+    
+    color: rgb(248, 240, 171);
+    font-size: 20px;
+}
+
+#hostelfees,#messfees h4{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#hostelfees,#messfees{
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: rgba(104, 104, 104, 0.281);
+    width: 90%;
+    border-radius: 4px;
+}
+@media(max-width: 768px){
+#feesection{
+    display: flex;
+    flex-direction: column;
+}
+#girls,#boys{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+}
+
